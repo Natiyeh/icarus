@@ -1,0 +1,12 @@
+<h5>List</h5>
+
+<form action="/pokemon" method="get">
+  <input type="text" name="pokemon_type" placeholder="What type of pokemon?">
+  <input type="submit">
+</form>
+
+<ul>
+  <% @pokemon.each do |id, pokemon| %>
+    <li><%= pokemon[:name] %></li>
+  <% end %>
+</ul>
