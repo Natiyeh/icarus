@@ -15,6 +15,7 @@ class PokemonController < ApplicationController
   end
 
   def create
+    raise
     puts "TODO: create the pokemon in the DB"
   end
 
